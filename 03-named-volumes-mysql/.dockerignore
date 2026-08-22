@@ -2,5 +2,6 @@ __pycache__/
 *.pyc
 .git
 .gitignore
+.env.example
 README.md
 README.html

@@ -111,8 +111,6 @@ Create your local file:
 cp .env.example .env
 ```
 
-`.env` should never be committed to Git.
-
 ---
 
 # Docker Compose

@@ -1,5 +1,5 @@
 from contextlib import asynccontextmanager
-from time import time
+import time
 import mysql.connector
 import os
 
