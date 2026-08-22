@@ -34,7 +34,7 @@ By completing this series, you'll gain practical experience with:
 | FastAPI | 0.141.1 |
 | Uvicorn | 0.52.4 |
 | MySQL Connector | 9.7.0 |
-| MySQL | 8.4 |
+| MySQL | 9.7 |
 | Docker | Latest |
 | Docker Compose | Latest |
 
