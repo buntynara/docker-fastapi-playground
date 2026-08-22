@@ -1,0 +1,7 @@
+.venv/
+.vscode/
+README.html
+.env
+__pycache__/
+.DS_Store
+*.pyc
