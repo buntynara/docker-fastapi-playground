@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from app.services.task_service import get_tasks, create_task
 from app.schemas.task import TaskCreate
 
-router=APIRouter()
+router = APIRouter()
 
 @router.get('/')
 def home(): 
@@ -17,9 +17,12 @@ def health():
 
 # ----- Proxy Endpoints -----
 
-@router.get('/proxy-info')
-def p(): 
-    return {'reverse_proxy':'nginx','upstream':'api:8000'}
+@router.get("/proxy-info")
+def proxy_info(): 
+    return {
+       "reverse_proxy": "nginx",
+       "upstream": "api:8000"
+    }
 
 # ----- Task Endpoints -----
 
